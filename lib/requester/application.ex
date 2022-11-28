@@ -17,6 +17,7 @@ defmodule Requester.Application do
         {"Google", "https://google.com"}
       ]},
       Requester.RequestServer,
+      Requester.LogAgent,
       Requester.Scheduler
     ]
 
